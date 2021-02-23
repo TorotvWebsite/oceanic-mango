@@ -9,7 +9,7 @@ seo:
       value: website
       keyName: property
     - name: 'og:title'
-      value: Plants from 
+      value: Plants from Canada
       keyName: property
     - name: 'og:description'
       value: This is the store page
