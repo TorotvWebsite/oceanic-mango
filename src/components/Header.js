@@ -26,19 +26,7 @@ export default class Header extends React.Component {
                                 }
                             </Link>
                         </div>
-                        <ul className="nav__menu">
-                            {_.map(_.get(site, 'siteMetadata.main_menu', null), (item, item_idx) => {
-                                let section = _.get(page, 'frontmatter.section', null) || _.get(page, 'frontmatter.title', null);
-                                let isActive = (_.get(item, 'title', null) === section) ? (true) : false;
-                                return (<React.Fragment key={item_idx + '.1'}>
-                                    <li key={item_idx} className="nav__menu-item">
-                                        <Link to={withPrefix(_.get(item, 'url', null))} className={classNames('nav__menu-item-link', {'nav__menu-item-link--active': isActive})}>
-                                            {_.get(item, 'title', null)}
-                                        </Link>
-                                    </li>
-                                </React.Fragment>)
-                            })}
-                        </ul>
+               
                         <div className="nav__right">
                             <button className="snipcart-checkout nav__button button button--transparent">
                                 <span className="button__icon nav__button-icon">
