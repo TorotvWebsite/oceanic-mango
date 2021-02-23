@@ -4,7 +4,7 @@ white_header: true
 sections:
   - type: hero_section
     section_id: hero_section
-    background_image: images/plant1-lg.jpg
+    background_image: images/promo.jpg
     background_image_opacity: 65
     content: >
       # Real, beautiful Candles right to you
