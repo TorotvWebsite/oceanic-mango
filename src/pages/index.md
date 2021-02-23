@@ -61,7 +61,9 @@ sections:
       arrow: true
 seo:
   title: Candle Sight | SImple Candles
-  description: The preview of the Planty theme
+  description: >-
+    fu ifyhgsifdighbfeighfeghfegefdih eripgerugerghregghrghrpitgphrghredhgr g re
+    retyer re rehirhrt tr hpt rpt jgvfhhblgdghl 
   extra:
     - name: 'og:type'
       value: website
