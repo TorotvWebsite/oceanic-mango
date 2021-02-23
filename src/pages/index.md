@@ -7,11 +7,11 @@ sections:
     background_image: images/header.jpg
     background_image_opacity: 65
     content: >
-      # Real, beautiful Candles right to you
+      ## Real, beautiful Candles right to you
 
 
-      Don't forget to add your Snipcart API key to the site's configuration to
-      enable Cart actions.
+      ## Don't forget to add your Snipcart API key to the site's configuration
+      to enable Cart actions.
     actions:
       - title: See all items
         url: /store
